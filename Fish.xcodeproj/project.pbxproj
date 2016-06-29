@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142DC69D1D23D45A00158DDC /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = 142DC69C1D23D45A00158DDC /* ocean.png */; };
 		14A22AC81D236B02007DE450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A22AC71D236B02007DE450 /* AppDelegate.swift */; };
 		14A22ACA1D236B02007DE450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A22AC91D236B02007DE450 /* ViewController.swift */; };
 		14A22ACD1D236B02007DE450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A22ACB1D236B02007DE450 /* Main.storyboard */; };
 		14A22ACF1D236B02007DE450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A22ACE1D236B02007DE450 /* Assets.xcassets */; };
 		14A22AD21D236B02007DE450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A22AD01D236B02007DE450 /* LaunchScreen.storyboard */; };
+		14A22ADC1D236BEF007DE450 /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A22ADB1D236BEF007DE450 /* FishView.swift */; };
+		14A22ADE1D236C70007DE450 /* HookerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A22ADD1D236C70007DE450 /* HookerView.swift */; };
+		14A22AE01D236C8F007DE450 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A22ADF1D236C8F007DE450 /* GameManager.swift */; };
+		14A22AE31D23781E007DE450 /* fish1.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A22AE11D23781E007DE450 /* fish1.png */; };
+		14A22AE41D23781E007DE450 /* hook.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A22AE21D23781E007DE450 /* hook.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		142DC69C1D23D45A00158DDC /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
 		14A22AC41D236B02007DE450 /* Fish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A22AC71D236B02007DE450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14A22AC91D236B02007DE450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		14A22ACE1D236B02007DE450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A22AD11D236B02007DE450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14A22AD31D236B02007DE450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A22ADB1D236BEF007DE450 /* FishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
+		14A22ADD1D236C70007DE450 /* HookerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HookerView.swift; sourceTree = "<group>"; };
+		14A22ADF1D236C8F007DE450 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		14A22AE11D23781E007DE450 /* fish1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish1.png; sourceTree = "<group>"; };
+		14A22AE21D23781E007DE450 /* hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hook.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +66,14 @@
 		14A22AC61D236B02007DE450 /* Fish */ = {
 			isa = PBXGroup;
 			children = (
+				142DC69C1D23D45A00158DDC /* ocean.png */,
+				14A22AE11D23781E007DE450 /* fish1.png */,
+				14A22AE21D23781E007DE450 /* hook.png */,
 				14A22AC71D236B02007DE450 /* AppDelegate.swift */,
 				14A22AC91D236B02007DE450 /* ViewController.swift */,
+				14A22ADD1D236C70007DE450 /* HookerView.swift */,
+				14A22ADB1D236BEF007DE450 /* FishView.swift */,
+				14A22ADF1D236C8F007DE450 /* GameManager.swift */,
 				14A22ACB1D236B02007DE450 /* Main.storyboard */,
 				14A22ACE1D236B02007DE450 /* Assets.xcassets */,
 				14A22AD01D236B02007DE450 /* LaunchScreen.storyboard */,
@@ -123,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A22AD21D236B02007DE450 /* LaunchScreen.storyboard in Resources */,
+				14A22AE41D23781E007DE450 /* hook.png in Resources */,
 				14A22ACF1D236B02007DE450 /* Assets.xcassets in Resources */,
 				14A22ACD1D236B02007DE450 /* Main.storyboard in Resources */,
+				142DC69D1D23D45A00158DDC /* ocean.png in Resources */,
+				14A22AE31D23781E007DE450 /* fish1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +158,9 @@
 			files = (
 				14A22ACA1D236B02007DE450 /* ViewController.swift in Sources */,
 				14A22AC81D236B02007DE450 /* AppDelegate.swift in Sources */,
+				14A22ADE1D236C70007DE450 /* HookerView.swift in Sources */,
+				14A22ADC1D236BEF007DE450 /* FishView.swift in Sources */,
+				14A22AE01D236C8F007DE450 /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +312,7 @@
 				14A22AD81D236B02007DE450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
